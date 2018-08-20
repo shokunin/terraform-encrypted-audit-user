@@ -100,6 +100,8 @@ resource "aws_iam_group_policy" "tf-auditors-policy" {
                 "glacier:List*",
                 "glacier:Describe*",
                 "glacier:Get*",
+                "iam:Get*",
+                "iam:Describe*",
                 "kinesisanalytics:Describe*",
                 "kinesisanalytics:Discover*",
                 "kinesisanalytics:Get*",
